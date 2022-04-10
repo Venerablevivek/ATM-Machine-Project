@@ -16,7 +16,7 @@ int main(){
     double balance=500;
     do{
        showmenu();
-       cout<<"Choose any Specific Option";
+       cout<<"Choose any Specific Option ";
        cin>>option;
 
         switch(option){
@@ -25,14 +25,14 @@ int main(){
         cout<<"Current Balance is "<<balance<<"₹"<<endl;
         break;
         case 'B':
-        cout<<"Enter the Depositable Amount";
+        cout<<"Enter the Depositable Amount ";
         double depositmoney;
         cin>>depositmoney;
         balance+=depositmoney;
         break;
 
         case 'C':
-        cout<<"Enter the Withdrawing Amount";
+        cout<<"Enter the Withdrawing Amount ";
         double withdrawing;
         cin>>withdrawing;
         if(withdrawing<=balance){
